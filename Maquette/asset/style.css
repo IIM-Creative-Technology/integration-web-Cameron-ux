@@ -1,0 +1,686 @@
+/* ------RESET CSS------ */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* ------HEADER------ */
+
+.header
+{
+    background-image:linear-gradient(to right,#2f2359, #4c3892);
+}
+
+.nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.nav img
+{
+    margin-right: 30%;
+}
+
+.header nav a
+{
+    padding: 0 20px;
+    font-size: 1.125em;
+    font-family: poppins;
+    color: white;
+}
+
+.connexion
+{
+    background-color: #bf3676;
+    padding: .5% 3%;
+    border-radius: 22px;
+    color: white;
+    font-family: poppins;
+    font-size: 1.125em;
+    margin-left: 3.5%;
+}
+
+.headerMid
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6.6%;
+}
+
+.headerText
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 11.6%;
+    padding-bottom: 3.3%;
+}
+
+.headerText h2
+{
+    color: white;
+    font-family: poppins;
+    font-size: 2.875em;
+    width: 100%;
+}
+
+.headerText p
+{
+    color: white;
+    font-size: 1em;
+    width: 90%;
+    font-family: poppins;
+    margin-top: 50px;
+}
+
+.headerText a
+{
+    background-color: #bf3676;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    color: white;
+    font-family: poppins;
+    padding: 2.3% 3.7%;
+    margin-top: 6.3%;
+}
+
+.fleche
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    padding-bottom: 4%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 420px)
+{
+    .nav
+    {
+        height: 200px;
+    }
+
+    .nav img
+    {
+        margin: 0;
+        position: absolute;
+        top: 2%;
+    }
+
+    .header nav a
+    {
+        display: flex;
+        font-size: 0.7em;
+    }
+
+    .none
+    {
+        display: none;
+    }
+
+    .headerText a
+    {
+        width: 40%;
+        margin-left: 20%;
+    }
+
+    .fleche img
+    {
+        width: 70%;
+    }
+}
+
+/* ------INFORMATION------ */
+
+.info
+{
+    background-image: url("IMG/background.png");
+}
+
+.infoTop
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoTop h2
+{
+    font-size: 2.5em;
+    font-family: poppins;
+    font-weight: bold;
+    color: #bf3676;
+    padding-top: 4.1%;
+}
+
+.hr
+{
+    width: 16.5%;
+    height: 2px;
+    background-color: #bf3676;
+    border: none;
+    margin-top: 2%;
+}
+
+.infoTop p 
+{
+    font-family: poppins;
+    font-weight: 500;
+    padding-top: 3.9%;
+    font-size: 1.125em;
+    width: 51%;
+    text-align: center;
+}
+
+.infoBot 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.infoCase
+{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    padding: 0 6.5%;
+    padding-top: 3.3%;
+}
+
+.infoCase img
+{
+    width: 30%;
+    padding-right: 6.1%;
+}
+
+.infoCase h3
+{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.32em;
+}
+
+.infoCase p
+{
+    font-family: poppins;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.btInfo
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 5.6%;
+    padding-bottom: 6.5%;
+}
+
+.defier
+{
+    color: white;
+    font-family: Poppins;
+    background-color: #bf3676;
+    font-size: 1.19em;
+    font-weight: 500;
+    border-radius: 22px;
+    padding: 0.8% 3.3%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 420px)
+{
+    .infoTop h2
+    {
+        font-size: 1.7em;
+        text-align: center;
+    }
+
+    .hr
+    {
+        width: 40%;
+    }
+
+    .infoTop p 
+    {
+        width: 70%;
+    }
+}
+
+/* -------SLIDER------- */
+
+#slider
+{
+    height: 549px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 420px)
+{
+
+}
+
+/* ------PERSONNALISER------ */
+
+.perso
+{
+    height: 823px;
+    background-image:linear-gradient(#4c3892, #2f2359);
+    position: relative;
+    padding-bottom: 3.4%;
+}
+
+.perso img 
+{
+    position: absolute;
+    top: 37%;
+    left: 25%;
+}
+
+.hr2
+{
+    width: 16.5%;
+    height: 2px;
+    background-color: white;
+    border: none;
+    margin-top: 2%;
+}
+
+.paris
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paris h2
+{
+    font-size: 2.5em;
+    font-family: poppins;
+    color: white;
+    padding-top: 4.8%;
+}
+
+.textMid
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 10.6%;
+}
+
+.midLeft
+{
+    margin-right: 13.2%;
+    z-index: 1;
+}
+
+.midLeft div
+{
+    display: flex;
+}
+
+.midLeft h4
+{
+    font-family: poppins;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: white;
+}
+
+.btNouveau
+{
+    background-color: white;
+    margin-left: 50px;
+    text-align: center;
+    font-family: poppins;
+    font-weight: 600;
+    padding: 4px 20px;
+    border-radius: 10px;
+    color: #2f2359;
+}
+
+.midLeft p
+{
+    width: 436px;
+    font-family: poppins;
+    font-weight: 500;
+    color: white;
+    padding-top: 7.2%;
+}
+
+.midLeft span
+{
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+.midRight
+{
+    margin-top: 2.3%;
+}
+
+.numeroInfo
+{
+    display: flex;
+    padding-top: 3.9%;
+}
+
+.numeroInfo p
+{
+    color: white;
+    width: 435px;
+    font-family: poppins;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+.rond
+{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    font-family: poppins;
+    font-size: 1.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.btFunc
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 9.5%;
+}
+
+.btFunc a
+{
+    font-family: poppins;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: white;
+    background-color: #bf3676;
+    padding: 1.1% 2%;
+    border-radius: 27px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 420px)
+{
+    .perso img 
+    {
+        display: none;
+    }
+
+    .hr2
+    {
+        width: 40%;
+    }
+
+    .paris h2
+    {
+        font-size: 1.8em;
+        display: flex;
+        text-align: center;
+    }
+
+    .midLeft
+    {
+        position: absolute;
+        top: 20%;
+    }
+
+    .midLeft h4
+    {
+        font-size: 1.2em;
+        position: absolute;
+        left: 9%;
+    }
+
+    .btNouveau
+    {
+        position: absolute;
+        top: -1%;
+        right: -10%;
+    }
+
+    .midLeft p
+    {
+        width: 100%;
+    }
+
+    .midRight
+    {
+        position: absolute;
+        top: 45%;
+    }
+
+    .numeroInfo p
+    {
+        width: 100%;
+        padding-left: 25px;
+    }
+
+    .rond
+    {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        font-size: 1.9em;
+    }
+
+    .btFunc
+    {
+        position: absolute;
+        top: 84%;
+    }
+
+    .btFunc a
+    {
+        font-size: 1em;
+        border-radius: 27px;
+        display: flex;
+        text-align: center;
+    }
+}
+
+/* ------AVIS------ */
+
+.avis
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avisLeft
+{
+    position: relative;
+}
+
+.avisLeft img
+{
+    position: absolute;
+    top: -10%;
+    left: 60%;
+}
+
+.text1
+{
+    font-family: poppins;
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 500px;
+    padding-right: 100px;
+}
+
+.text2
+{
+    width: 500px;
+    color: #bbbbbb;
+    padding-top: 4%;
+    font-family: poppins;
+    font-size: 0.875em;
+}
+
+.avisRight img
+{
+    display: block;
+}
+
+@media screen and (min-width: 0px) and (max-width: 420px)
+{
+    .avisLeft
+    {
+        position: absolute;
+        top: 420%;
+    }
+
+    .text1
+    {
+        font-size: 1em;
+        width: 100%;
+        color: white;
+    }
+
+    .text2
+    {
+        width: 100%;
+        font-size: 0.875em;
+        padding-top: 20%;
+    }
+
+    .avisRight img
+    {
+        width: 100%;
+    }
+}
+
+/* ------FOOTER------ */
+
+.footer
+{
+    background-image: url('IMG/background-footer.png');
+}
+
+.betscape
+{
+    font-family: poppins;
+    font-size: 1.9em;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 4.2%;
+    padding-left: 7.2%;
+    letter-spacing: 3px;
+}
+
+.footerMid
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.groupeBt
+{
+    display: flex;
+}
+
+.colBt, .colBt2
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 110px;
+}
+
+.colBt a, .colBt2 a
+{
+    color: white;
+    padding-top: 25px;
+    font-family: poppins;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.reseauSociaux
+{
+    display: flex;
+    align-items: flex-end;
+    padding-right: 10%;
+}
+
+.reseauSociaux a
+{
+    padding: 0 5px;
+}
+
+.hrFooter
+{
+    margin: auto;
+    height: 1px;
+    border: none;
+    background-color: white;
+    width: 88%;
+    margin-top: 2%;
+}
+
+.textFooter
+{
+    font-family: poppins;
+    font-size: 0.85em;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1.5% 0;
+}
+
+.textFooter p
+{
+    width: 40%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 420px)
+{
+    .betscape
+    {
+        font-size: 1.9em;
+        padding-top: 4.2%;
+        padding-left: 27%;
+        letter-spacing: 3px;
+    }
+
+    .groupeBt
+    {
+        display: inline;
+    }
+
+    .reseauSociaux
+    {
+        display: inline;
+        padding-top: 30%;
+    }
+
+    .hrFooter
+    {
+        width: 70%;
+    }
+
+    .textFooter
+    {
+        width: 100%;
+    }
+
+    .textFooter p
+    {
+        width: 90%;
+    }
+}
